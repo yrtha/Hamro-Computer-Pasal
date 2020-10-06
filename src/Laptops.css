@@ -1,0 +1,24 @@
+.laptops{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.top > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.main{
+    display: flex;
+}
+
+.block{
+    height: 60px;
+    color: lightgray;
+}
+
+.bread{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,106 @@
+.home{
+    max-width: 1500px;
+}
+
+.home-upper{
+    display: flex;
+}
+
+.home-left{
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: rgb(238, 238, 238);
+    width: 700px;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+    display: flex;    
+}
+
+
+
+.aaa{
+    text-decoration: none;
+    color: black;   
+}
+
+.aa{
+    text-decoration: none;
+}
+
+.a > h1{
+    font-size: 16px;
+    margin: 15px;
+    text-align: left;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+
+}
+
+.a > h1:hover{
+    color: rgb(48, 49, 88);
+}
+
+
+.home-right{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    flex-direction: column;
+
+}
+.banner-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner{
+    width: 100%;
+    object-fit: contain;
+}
+
+.banner1{
+    width: 65%;
+    object-fit: contain;
+}
+.banner2{
+    margin-left: 40px;
+    width: 30%;
+    object-fit: contain;
+}
+.banner3{
+    object-fit: contain;
+    width: 98%;
+}
+
+.home-lower{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.home-lower > h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ad{
+    width: 95%;
+    object-fit: contain;
+    margin: 20px;
+}
+
+.card{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+}

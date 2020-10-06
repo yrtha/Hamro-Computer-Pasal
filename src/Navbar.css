@@ -1,0 +1,93 @@
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgb(67, 32, 151);
+}
+
+.header-logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 10px;
+  margin-top: 0px;
+  height: 70px;
+}
+
+.header-search {
+  display: flex;
+  flex: 0.85;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header-search-input {
+  height: 30px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header-search-icon {
+  padding: 5px;
+  height: 30px !important;
+  background-color: rgb(236, 235, 235);
+}
+
+.header-nav {
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-options {
+  text-decoration: none !important;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.header-option-line1 {
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.header-option-line2 {
+  text-decoration: none !important;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.icon-size {
+  height: 30px !important;
+}
+
+.header-optionbasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.basket-count {
+  text-decoration: none !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.a1 {
+  text-decoration: none;
+}
+
+.aaicon {
+  color: white;
+  margin-left: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+
